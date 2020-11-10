@@ -1,0 +1,24 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "Spotify Music Downloads",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd app && node index.js"
+  },
+  "author": "Eduardo Malherbi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-spotify-api": "^1.0.7",
+    "prompt": "^1.0.0",
+    "prompt-base": "^5.0.0",
+    "prompt-checkbox": "^2.2.0",
+    "prompt-choices": "^5.0.0",
+    "prompt-radio": "^1.2.1",
+    "seek-torrent": "^1.0.1",
+    "terminal-kit": "^1.44.0",
+    "thepiratebay": "^1.4.8",
+    "transmission": "^0.4.9"
+  }
+}
